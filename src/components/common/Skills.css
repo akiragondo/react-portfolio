@@ -1,0 +1,29 @@
+.SkillsSection{
+    width: 70%;
+}
+.SkillsList{
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: start;   
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+
+    column-count: 2;
+}
+.BulletPointRow{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.7vh 0px;
+}
+.BulletIcon{
+    color: var(--accent-color);
+    font-size: large;
+}
+.SkillName{
+    font-size: larger;
+    padding-left: 1vw;
+    color: var(--highlight-color);
+    font-weight: 400;
+}

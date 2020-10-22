@@ -1,6 +1,10 @@
 import React, { Component } from "react";
-import Introduction from "./Introduction";
+import Introduction from "./sections/Introduction";
 import "./Body.css";
+import AboutSection from "./sections/AboutSection";
+import EducationSection from "./sections/EducationSection";
+import ExperienceSection from "./sections/ExperienceSection";
+
 export default class Body extends Component {
   constructor(props) {
     super(props);
@@ -62,8 +66,11 @@ export default class Body extends Component {
             }
           >
             <Introduction />
-            {RightFixedLinks}
+            <AboutSection />
+            <EducationSection />
+            <ExperienceSection />
           </div>
+          {RightFixedLinks}
         </div>
       </div>
     );

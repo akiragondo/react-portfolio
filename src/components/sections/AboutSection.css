@@ -1,0 +1,11 @@
+.AboutSection{
+    margin-top: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.SectionDescription{
+    text-align: start;
+    width: 60%;
+}

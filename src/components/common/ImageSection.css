@@ -1,0 +1,20 @@
+.ImageContainer{
+    height: fit-content;
+    position: relative;
+}
+.ImageSectionRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.ImageSection{
+    margin: 4vh 0 ;
+}
+.ImageSectionImage{
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+.ImageSectionDescription{
+    text-align: start;
+    padding: 1vh 4vw 0px 0px;
+}

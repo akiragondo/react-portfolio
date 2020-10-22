@@ -1,0 +1,18 @@
+
+.SecondaryHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    margin: 3vh 1.2vw 1vw 0;
+}
+.SectionName{
+    margin: 0px 2vw 0 0;
+}
+.SecondaryDivider{
+    height:1px;
+    width: 50%;
+    background-color: var(--primary-color);
+    opacity: 0.6;
+    
+}

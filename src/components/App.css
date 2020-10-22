@@ -1,12 +1,32 @@
 .App {
   text-align: center;
   min-height: 200vh;
+  width: 100%;
   --background-color:  #f5f3f4;
-  --primary-color: #574D4C;
+  --primary-color: #908382;
   --accent-color: #BA181B;
   --highlight-color: #161A1D;
   --rare-color: #F4E409;
   background-color: var(--background-color);
   color: var(--primary-color);
-
 }
+
+.description{
+  font-size: large;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.title{
+  font-size: xx-large;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+
+
+.SecondaryTitle{
+  font-size: larger;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+

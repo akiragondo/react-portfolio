@@ -8,24 +8,31 @@
 }
 .Hello{
     color: var(--accent-color);
+    font-size: 1em;
+    word-wrap: normal;
 }
 .Name{
     color: var(--highlight-color);
     font-weight: 500;
+    font-size: 7em;
+    word-wrap: normal;
 }
 .Brief{
     font-weight: lighter;
+    font-size: 3em;
+    word-wrap: normal;
 }
 .Description{
     font-weight: lighter;
     margin-top: 12px;
     width: 60%;
+    font-size: 2em;
 }
 .ContactButton{
     cursor: pointer;
     color: var(--accent-color);
     border-radius: 40px;
-    font-size: 1.5vw;
+    font-size: 1.2em;
     border: thin solid var(--accent-color);
     padding: 1vh 1vw;
     margin-top: 2.5vh;
