@@ -1,0 +1,33 @@
+
+.IntroductionColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+    text-align: start;
+    word-wrap: normal;
+}
+.Hello{
+    color: var(--accent-color);
+}
+.Name{
+    color: var(--highlight-color);
+    font-weight: 500;
+}
+.Brief{
+    font-weight: lighter;
+}
+.Description{
+    font-weight: lighter;
+    margin-top: 12px;
+    width: 60%;
+}
+.ContactButton{
+    cursor: pointer;
+    color: var(--accent-color);
+    border-radius: 40px;
+    font-size: 1.5vw;
+    border: thin solid var(--accent-color);
+    padding: 1vh 1vw;
+    margin-top: 2.5vh;
+
+}

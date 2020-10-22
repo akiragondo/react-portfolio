@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  min-height: 200vh;
+  --background-color:  #f5f3f4;
+  --primary-color: #574D4C;
+  --accent-color: #BA181B;
+  --highlight-color: #161A1D;
+  --rare-color: #F4E409;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+
+}

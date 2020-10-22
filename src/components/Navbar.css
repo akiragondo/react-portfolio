@@ -1,0 +1,41 @@
+.HeaderContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 8vh 6vw 2vh 6vw;
+}
+
+.Accent{
+    color: var(--accent-color);
+    font-size: x-large;
+    font-weight: 400;
+}
+.Logo{
+    color: var(--highlight-color);
+}
+.LogoContainer{
+    width: 12px;
+}
+.LinksHeaderRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+.HeaderLink{
+    padding: 6px 12px;
+    margin-left: 6px;
+    cursor: pointer;
+
+}
+.MenuLink{
+    cursor: pointer;
+    padding: 6px 12px;
+    color: var(--accent-color);
+}
+
+.Special{
+    border-radius: 20px;
+    border: thin solid var(--accent-color);
+}
